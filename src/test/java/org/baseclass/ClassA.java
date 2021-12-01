@@ -13,7 +13,7 @@ public class ClassA extends BaseClass {
 		PojoLogin p=new PojoLogin();
 		sendValue(p.getUsername(), getData(1, 2, "sheet1", "Book2"));
 		sendValue(p.getPswrd(), getData(2, 1, "sheet1", "Book"));
-
+		System.out.println("Poda venna");
 	}
 	@Test
 	private void tc2() {
