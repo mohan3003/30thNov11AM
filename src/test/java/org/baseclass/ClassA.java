@@ -18,7 +18,7 @@ public class ClassA extends BaseClass {
 	@Test
 	private void tc2() {
 		System.out.println("Test case 2 passed");
-
+		System.out.println("Testing");
 	}
 	
 }
