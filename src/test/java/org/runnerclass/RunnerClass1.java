@@ -13,5 +13,9 @@ snippets=SnippetType.CAMELCASE,glue="org.stepdefinition",
 dryRun=false,monochrome=true,tags="@Feature01")
 
 public class RunnerClass1{
-	
+
+	private void newOne() {
+		System.out.println("Conflict should come");
+		System.out.println("Un ista mayiruku lam poda mudiyathu");
+	}
 }
